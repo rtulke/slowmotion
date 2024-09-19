@@ -11,12 +11,6 @@ This script performs a Slowloris attack, which opens multiple HTTP connections t
 
 I will extend and rebuild the script this is my first draft let me know where there are problems ;)
 
-# Tested Webservers
-
-- Apache1
-- Apache2
-- Nginx (if you have enough power, YES!) 
-
 # Features
 
 - Socket Initialization: Opens a connection to a target server and sends partial HTTP headers
