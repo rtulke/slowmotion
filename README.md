@@ -15,7 +15,7 @@ I will extend and rebuild the script this is my first draft let me know where th
 
 - Apache1
 - Apache2
-- Nginx (YES! ;) 
+- Nginx (if you have enough power, YES!) 
 
 # Features
 
