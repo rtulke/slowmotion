@@ -1,5 +1,5 @@
 # slowmotion
-Slowmotion is a Python based HTTP/S Attacker
+Slowmotion is a Python based HTTP/s Attacker
 
 
 # Description
