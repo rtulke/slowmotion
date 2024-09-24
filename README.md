@@ -22,11 +22,11 @@ I will extend and rebuild the script this is my first draft let me know where th
 # Parameters
 
 ```
--H --hosts: Comma-separated list of hosts to attack. Example: host1,host2,host3 (required).
--p --port: The port to attack on the target (default is 80).
--r --max-retries: The maximum number of retries for establishing a connection (default is 5).
--t --timeout: Timeout in seconds for each socket connection (default is 4 seconds).
--n --num-sockets: Number of sockets to open for the attack (default is dynamically calculated based on the system’s open file limit, ulimit).
--w --wait: Time in seconds to wait between sending headers to keep the connections alive (default is 15 seconds).
---cpu-load: Maximum CPU load allowed before stopping new instances of the attack (default is 1.0, meaning 100% of CPU cores can be utilized).
+-H --hosts: Comma-separated list of hosts to attack (e.g., host1,host2) (required).
+-p --port: Target port (default: 80).
+-r --max-retries: Max connection retries (default: 5).
+-t --timeout: Timeout per socket in seconds (default: 4).
+-n --num-sockets: Number of sockets to open (default: dynamically based on ulimit).
+-w --wait: Wait time between sending headers in seconds (default: 15).
+-c --cpu-load: Max CPU load before stopping new attacks (default: 1.0 = 100%).
 ```
