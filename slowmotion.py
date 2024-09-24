@@ -130,17 +130,9 @@ def main():
     parser.add_argument("-p", "--port", type=int, default=80, help="Port to attack (default: 80)")
     parser.add_argument("-r", "--max-retries", type=int, default=5, help="Maximum number of retries (default: 5)")
     parser.add_argument("-t", "--timeout", type=float, default=4, help="Socket timeout in seconds (default: 4)")
-
-    parser.add_argument(
-        "-n", "--num-sockets",
-        type=int,
-        default=default_sockets,
-        help="Number of sockets to open (default: max_open_files - 50)"
-    )
-
+    parser.add_argument("-n", "--num-sockets", type=int, default=default_sockets, help="Number of sockets to open (default: max_open_files - 50)")
     parser.add_argument("-w", "--wait", type=int, default=15, help="Time to wait between sending headers (default: 15 seconds)")
-    parser.add_argument("--cpu-load", type=float, default=1.0, help="Maximum CPU load to allow (default: 1.0, i.e., 100% of CPU cores)")
-
+    parser.add_argument("-c", "--cpu-load", type=float, default=1.0, help="Maximum CPU load to allow (default: 1.0, i.e., 100% of CPU cores)")
     args = parser.parse_args()
 
     hosts = [clean_host(host.strip()) for host in args.hosts.split(",")]
