@@ -1,0 +1,33 @@
+# Network and HTTP libraries
+requests>=2.25.0
+urllib3>=1.26.0
+
+# Configuration management
+pyyaml>=5.4.0
+
+# System monitoring
+psutil>=5.8.0
+
+# Logging (included in Python standard library, listed for documentation)
+# logging
+
+# Threading (included in Python standard library, listed for documentation)
+# threading
+
+# Socket (included in Python standard library, listed for documentation)
+# socket
+
+# Time utilities (included in Python standard library, listed for documentation)
+# time
+
+# Argument parsing (included in Python standard library, listed for documentation)
+# argparse
+
+# Regular expressions (included in Python standard library, listed for documentation)
+# re
+
+# Operating system interfaces (included in Python standard library, listed for documentation)
+# os
+
+# System resource usage (included in Python standard library, listed for documentation)
+# resource
